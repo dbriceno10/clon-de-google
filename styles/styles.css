@@ -10,7 +10,7 @@ html {
 
 
 body {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -60,4 +60,63 @@ nav .nav-rigth-section li a img {
     height: 25px;
     border-radius: 100%;
     margin-left: 10px;
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+/* main .main-logo img {
+    width: 300px;
+} */
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input-container input {
+    border: none;
+    outline: none; /*Quita el sombreado al dar clip al input */
+    width: 450px;
+    height: 40px;
+}
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input .search-icon {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .main-input .micro-icon {
+    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
 }
